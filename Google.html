@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet"href="./style.css">
+        <header>
+            <title>Google Search</title>
+        </header>
+    </head>
+    <body>
+        <form action="https://www.google.co.il/search"target="_blank">
+           <div>
+               <label>
+                   Search :
+               </label>
+               <input type="text" name="q" required placeholder ="enter something">
+           </div>
+           <div>
+               <label> 
+                   Was Updated In:
+                </label>
+                <select name ="as_qdr">
+                    <option value="">Any Time</option>
+                    <option value="d">Day Ago</option>
+                    <option value="w">Week Ago</option>
+                    <option value="m">Month Ago</option>
+                    <option value="y">Year Ago</option>
+                </select>
+           </div>
+           <div>
+               <label>
+                   search only pages writtein in hebrew
+               </label>
+               <input type="checkbox" id="lr" name="lr" value="lang_iw">
+           <div>
+            <label>Number of Result:</label>
+            <input type ="number" min="1" max="10" name="num">          
+           </div>
+           <div>
+               <input type="submit" value="Ask Google" id="G">
+           </div>           
+        </form>          
+    </body>
+</html>

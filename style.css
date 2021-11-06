@@ -1,0 +1,13 @@
+*{
+    display: block;
+    margin: 5px;
+}
+label {   
+    font-weight: bold;
+    
+}
+input[type=submit]{
+    border-radius: 12px;
+    padding: 5px;
+    color: green;
+}
